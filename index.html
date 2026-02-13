@@ -1,71 +1,96 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww30040\viewh16520\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ayesha 💕</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff758c, #ff7eb3);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            overflow: hidden;
+        }
 
-\f0\fs24 \cf0 <!DOCTYPE html>\
-<html>\
-<head>\
-    <title>Will You Be My Valentine? \uc0\u55357 \u56470 </title>\
-    <style>\
-        body \{\
-            background: linear-gradient(to right, #ff9a9e, #fad0c4);\
-            text-align: center;\
-            font-family: Arial, sans-serif;\
-            overflow: hidden;\
-        \}\
-\
-        h1 \{\
-            margin-top: 100px;\
-            font-size: 40px;\
-        \}\
-\
-        button \{\
-            padding: 15px 30px;\
-            font-size: 18px;\
-            margin: 20px;\
-            border-radius: 30px;\
-            border: none;\
-            cursor: pointer;\
-            transition: 0.3s;\
-        \}\
-\
-        #yesBtn \{\
-            background-color: #ff4d6d;\
-            color: white;\
-        \}\
-\
-        #noBtn \{\
-            background-color: white;\
-        \}\
-    </style>\
-</head>\
-<body>\
-\
-    <h1>Will You Be My Valentine? \uc0\u55357 \u56469 </h1>\
-\
-    <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="250">\
-\
-    <br>\
-\
-    <button id="yesBtn" onclick="celebrate()">YES \uc0\u55357 \u56470 </button>\
-    <button id="noBtn" onmouseover="moveButton()">No \uc0\u55357 \u56837 </button>\
-\
-    <script>\
-        function celebrate() \{\
-            document.body.innerHTML = "<h1>YAYYYY!!! \uc0\u55356 \u57225 \u55357 \u56470 </h1><h2>You just made me the happiest person alive!</h2>";\
-        \}\
-\
-        function moveButton() \{\
-            let button = document.getElementById("noBtn");\
-            button.style.position = "absolute";\
-            button.style.top = Math.random() * window.innerHeight + "px";\
-            button.style.left = Math.random() * window.innerWidth + "px";\
-        \}\
-    </script>\
-\
-</body>\
-</html>\
+        h1 {
+            margin-top: 80px;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            width: 80%;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        button {
+            padding: 15px 35px;
+            font-size: 18px;
+            margin: 20px;
+            border-radius: 30px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        #yesBtn {
+            background-color: #ff1744;
+            color: white;
+            box-shadow: 0 0 20px rgba(255, 23, 68, 0.7);
+        }
+
+        #yesBtn:hover {
+            transform: scale(1.1);
+        }
+
+        #noBtn {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Ayesha 💕</h1>
+
+<p>
+On 24th September, my first day at work, we carpooled together.
+Then on 13th October, when I went to Thailand,
+we decided we were in love and should give this a chance.
+
+So now I have one important question...
+</p>
+
+<h1>Will you be my Valentine? 💘</h1>
+
+<img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="250">
+
+<br>
+
+<button id="yesBtn" onclick="celebrate()">YES, Always 💖</button>
+<button id="noBtn" onmouseover="moveButton()">No 😅</button>
+
+<script>
+function celebrate() {
+    document.body.innerHTML = `
+        <h1>YAYYYYY AYESHA!!! 🎉💖</h1>
+        <h2>You just made me the happiest person alive.</h2>
+        <p>From that first carpool to Thailand and beyond, I choose you. 💕</p>
+        <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="300">
+    `;
 }
+
+function moveButton() {
+    let button = document.getElementById("noBtn");
+    button.style.position = "absolute";
+    button.style.top = Math.random() * window.innerHeight + "px";
+    button.style.left = Math.random() * window.innerWidth + "px";
+}
+</script>
+
+</body>
+</html>
+
